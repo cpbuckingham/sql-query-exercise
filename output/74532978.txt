@@ -1,0 +1,8 @@
+exercisedb=# select customers.id, orders.id, items.name                                                                                from customers                                                                                                                         join orders                                                                                                                            on orders.customer_id = customers.id                                                                                                   join items                                                                                                                             on items.id = customers.id                                                                                                             where items.id ='8';
+ id | id |  name  
+----+----+--------
+  8 |  8 | boot02
+  8 | 43 | boot02
+  8 | 44 | boot02
+  8 | 47 | boot02
+(4 rows)

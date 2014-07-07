@@ -1,0 +1,12 @@
+exercisedb=# select id
+exercisedb-# from orders
+exercisedb-# order by id DESC
+exercisedb-# limit 5;
+ id 
+----
+ 50
+ 49
+ 48
+ 47
+ 46
+(5 rows)

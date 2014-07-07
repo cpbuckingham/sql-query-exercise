@@ -1,0 +1,16 @@
+exercisedb=# select name, email
+exercisedb-# from customers
+exercisedb-# order by name, email;
+         name         |              email               
+----------------------+----------------------------------
+ Coleman Prohaska Jr. | taryn.becker@doyle.org
+ Donato Rempel        | ladarius@waelchi.org
+ Edna Hintz           | elisha_mclaughlin@pouros.biz
+ Elta Dicki           | lesly@heaney.org
+ Evert Pfeffer        | alisa.luettgen@hoeger.org
+ Hulda Will III       | ella_sanford@stracke.com
+ Ms. Sofia Rowe       | jacky_funk@bayerprosacco.name
+ Tyrell Von DDS       | cleo_frami@bartondenesik.name
+ Wilhelmine Huels     | alexander_rice@ornjakubowski.com
+ Zelma Davis          | osborne@mohr.biz
+(10 rows)

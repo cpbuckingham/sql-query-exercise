@@ -1,0 +1,54 @@
+exercisedb=# select orders.id, customers.name, orders.amount                                                                           from orders                                                                                                                            inner join customers                                                                                                                   on orders.customer_id = customers.id                                                                                                   order by name ASC;
+ id |         name         | amount 
+----+----------------------+--------
+ 43 | Coleman Prohaska Jr. |  37.08
+  8 | Coleman Prohaska Jr. |  64.59
+ 44 | Coleman Prohaska Jr. |   99.0
+ 47 | Coleman Prohaska Jr. |  31.07
+ 21 | Donato Rempel        |  55.97
+ 26 | Donato Rempel        |  39.48
+ 11 | Donato Rempel        |  19.67
+ 15 | Donato Rempel        |   5.67
+ 41 | Donato Rempel        |  35.28
+ 10 | Edna Hintz           |  85.04
+  3 | Edna Hintz           |   91.7
+ 48 | Edna Hintz           |  80.36
+ 45 | Edna Hintz           |   37.9
+ 24 | Edna Hintz           |  11.16
+ 37 | Edna Hintz           |  86.86
+  2 | Elta Dicki           |  55.42
+  6 | Elta Dicki           |  65.82
+ 50 | Elta Dicki           |   59.5
+ 13 | Elta Dicki           |  61.56
+ 36 | Elta Dicki           |  81.47
+ 39 | Elta Dicki           |  52.57
+ 32 | Evert Pfeffer        |  84.81
+  4 | Evert Pfeffer        |  49.52
+  5 | Evert Pfeffer        |   4.81
+  7 | Evert Pfeffer        |  25.91
+ 22 | Evert Pfeffer        |  44.42
+ 28 | Evert Pfeffer        |  19.72
+ 38 | Evert Pfeffer        |  58.23
+ 25 | Hulda Will III       |  26.37
+ 23 | Hulda Will III       |  80.77
+ 31 | Hulda Will III       |  56.66
+ 46 | Hulda Will III       |   3.05
+ 18 | Hulda Will III       |  30.91
+ 40 | Hulda Will III       |  34.62
+ 30 | Hulda Will III       |  81.17
+ 49 | Ms. Sofia Rowe       |   50.1
+ 35 | Ms. Sofia Rowe       |  94.27
+  9 | Ms. Sofia Rowe       |  68.89
+ 19 | Ms. Sofia Rowe       |  97.11
+ 42 | Ms. Sofia Rowe       |  77.16
+ 17 | Tyrell Von DDS       |   1.69
+ 20 | Tyrell Von DDS       |    5.4
+ 16 | Wilhelmine Huels     |  31.45
+ 27 | Wilhelmine Huels     |  13.33
+ 14 | Zelma Davis          |  30.24
+ 12 | Zelma Davis          |  29.74
+ 34 | Zelma Davis          |  35.54
+ 29 | Zelma Davis          |  73.06
+ 33 | Zelma Davis          |  36.94
+  1 | Zelma Davis          |  63.35
+(50 rows)

@@ -1,0 +1,16 @@
+exercisedb=# select id, name, email
+exercisedb-# from customers
+exercisedb-# ;
+ id |         name         |              email               
+----+----------------------+----------------------------------
+  1 | Donato Rempel        | ladarius@waelchi.org
+  2 | Tyrell Von DDS       | cleo_frami@bartondenesik.name
+  3 | Ms. Sofia Rowe       | jacky_funk@bayerprosacco.name
+  4 | Evert Pfeffer        | alisa.luettgen@hoeger.org
+  5 | Elta Dicki           | lesly@heaney.org
+  6 | Zelma Davis          | osborne@mohr.biz
+  7 | Edna Hintz           | elisha_mclaughlin@pouros.biz
+  8 | Coleman Prohaska Jr. | taryn.becker@doyle.org
+  9 | Wilhelmine Huels     | alexander_rice@ornjakubowski.com
+ 10 | Hulda Will III       | ella_sanford@stracke.com
+(10 rows)

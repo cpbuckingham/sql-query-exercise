@@ -1,0 +1,4 @@
+exercisedb=# select customers.name, orders.id, items.name                                                                              from customers                                                                                                                         join orders                                                                                                                            on orders.customer_id = customers.id                                                                                                   join items                                                                                                                             on items.id = customers.id                                                                                                             where customers.name = 'Evert Pfeffer' and items.name = 'bike03';
+ name | id | name 
+------+----+------
+(0 rows)

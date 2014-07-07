@@ -1,0 +1,29 @@
+exercisedb=# select * from items
+exercisedb-# where name
+exercisedb-# like '%01';
+ id |  name  |  description  
+----+--------+---------------
+  1 | ski01  | downhill ski
+  4 | bike01 | mountain bike
+  7 | boot01 | hiking boots
+(3 rows)
+
+exercisedb=# select * from items
+exercisedb-# where name
+exercisedb-# like '%02';
+ id |  name  |    description    
+----+--------+-------------------
+  2 | ski02  | cross country ski
+  5 | bike02 | road bike
+  8 | boot02 | ski boots
+(3 rows)
+
+exercisedb=# select * from items 
+exercisedb-# where name
+exercisedb-# like '%03';
+ id |  name  | description 
+----+--------+-------------
+  3 | ski03  | snow board
+  6 | bike03 | tricycle
+  9 | boot03 | moon boots
+(3 rows)

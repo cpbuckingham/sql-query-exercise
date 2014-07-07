@@ -1,0 +1,6 @@
+exercisedb=# select customers.id, orders.id, items.name                                                                                from customers                                                                                                                         join orders                                                                                                                            on orders.customer_id = customers.id                                                                                                   join items                                                                                                                             on items.id = customers.id                                                                                                             where items.id = '2';
+ id | id | name  
+----+----+-------
+  2 | 17 | ski02
+  2 | 20 | ski02
+(2 rows)
